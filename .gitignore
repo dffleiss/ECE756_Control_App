@@ -23,3 +23,6 @@ octave-workspace
 
 # Ignore map images since these are large
 .png
+
+# Ignore track records
+.csv
