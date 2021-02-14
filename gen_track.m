@@ -71,5 +71,6 @@ turn_rb(:,4) = -1/radius;
 track = [line_b; turn_bl; line_l; turn_lc; line_c; turn_ct; line_t; turn_tr; line_r; turn_rb];
 track(:,1) = track(:,1) - 1.55;
 track(:,2) = track(:,2) + 0.365;
-close all, plot(track(:,1),track(:,2));
-figure, plot(track(:,3));
+close all;
+%close all, plot(track(:,1),track(:,2));
+%figure, plot(track(:,3));
