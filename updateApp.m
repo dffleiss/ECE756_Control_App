@@ -25,8 +25,7 @@ function updateApp(varargin)
                       "Vehicle1_Battery",
                       "Vehicle1_C1",
                       "Vehicle1_C2",
-                      "Vehicle1_C3",
-                      "Vehicle1_C4"];
+                      "Vehicle1_C3"];
 
     %create run time objects that return position data from the simulation
     %values = zeros(length(variable_names), 1);
