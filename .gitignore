@@ -19,11 +19,11 @@ slprj/
 octave-workspace
 
 # Simulink autosave extension
-.autosave
+*.autosave
 
 # Ignore map images since these are large
 .png
 
 # Ignore track records
-.csv
+*.csv
 EV3MediumMotor.slx.r2020a
