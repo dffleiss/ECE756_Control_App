@@ -1,4 +1,6 @@
 function updateApp(varargin)
+    %%% This function
+
     % No need to search for these every call
     persistent all_tag_objects
     persistent all_tags
