@@ -1,22 +1,20 @@
 function updateApp(varargin)
-    %%% This function
-
     % No need to search for these every call
-    persistent all_tag_objects
-    persistent all_tags
-    persistent last_call_time
-    if isempty(all_tag_objects)
-        %get a handle to the GUI's 'current state' window
-        all_tag_objects = findall(0, '-property', 'tag');
-        all_tags = get(all_tag_objects, 'tag');
-        last_call_time = tic;
-    end
+    %persistent all_tag_objects
+    %persistent all_tags
+    %persistent last_call_time
+    %if isempty(all_tag_objects)
+    %    %get a handle to the GUI's 'current state' window
+    %    all_tag_objects = findall(0, '-property', 'tag');
+    %    all_tags = get(all_tag_objects, 'tag');
+    %    last_call_time = tic;
+    %end
     
-    disp(toc(last_call_time))
-    last_call_time = tic;
+    %disp(toc(last_call_time))
+    %last_call_time = tic;
     
-    %all_tag_objects = findall(0, '-property', 'tag');
-    %all_tags = get(all_tag_objects, 'tag');
+    all_tag_objects = findall(0, '-property', 'tag');
+    all_tags = get(all_tag_objects, 'tag');
     % These correspond to the output names from Simulink
     variable_names = ["Vehicle1_X",
                       "Vehicle1_Y",
