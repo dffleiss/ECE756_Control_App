@@ -11,7 +11,27 @@ function updateApp(varargin)
                       "Vehicle1_Battery",
                       "Vehicle1_C1",
                       "Vehicle1_C2",
-                      "Vehicle1_C3"];
+                      "Vehicle1_C3",
+                      "Vehicle2_X",
+                      "Vehicle2_Y",
+                      "Vehicle2_TH",
+                      "Vehicle2_LeftRLI",
+                      "Vehicle2_RightRLI",
+                      "Vehicle2_Ultrasound",
+                      "Vehicle2_Battery",
+                      "Vehicle2_C1",
+                      "Vehicle2_C2",
+                      "Vehicle2_C3",
+                      "Vehicle3_X",
+                      "Vehicle3_Y",
+                      "Vehicle3_TH",
+                      "Vehicle3_LeftRLI",
+                      "Vehicle3_RightRLI",
+                      "Vehicle3_Ultrasound",
+                      "Vehicle3_Battery",
+                      "Vehicle3_C1",
+                      "Vehicle3_C2",
+                      "Vehicle3_C3"];
 
     %create run time objects that return position data from the simulation
     %values = zeros(length(variable_names), 1);
