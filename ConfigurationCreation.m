@@ -5,7 +5,7 @@
         Map = im2double(Map).*255;%Normalize image to 0-1 scale, then multiply by 255 to get 0-255 scale
         
         % Temporary
-        cmdPort = 25003;
-        dataRXPort = 25002;
-        dataTXPort = 25001;
-        map = double(rgb2gray(imread('map.png')));%'iSpaceMapV2.0_50dpi.png')))*100/255;
+        %cmdPort = 25003;
+        %dataRXPort = 25002;
+        %dataTXPort = 25001;
+        %map = double(rgb2gray(imread('map.png')));%'iSpaceMapV2.0_50dpi.png')))*100/255;
