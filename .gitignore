@@ -26,4 +26,5 @@ octave-workspace
 
 # Ignore track records
 *.csv
+*.txt
 EV3MediumMotor.slx.r2020a
