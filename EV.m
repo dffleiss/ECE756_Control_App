@@ -5,16 +5,16 @@ classdef EV < handle
         udpReceiver;
         
         % GUI handles for positions, sensors, and performance values
-        x          = 0;
-        y          = 0;
-        th         = 0;
-        leftRLI    = 0;
-        rightRLI   = 0;
-        ultrasonic = 0;
-        battery    = 0;
-        C1         = 0;
-        C2         = 0;
-        C3         = 0;
+        x          = 0.0;
+        y          = 0.0;
+        th         = 0.0;
+        leftRLI    = 0.0;
+        rightRLI   = 0.0;
+        ultrasonic = 0.0;
+        battery    = 0.0;
+        C1         = 0.0;
+        C2         = 0.0;
+        C3         = 0.0;
     end
     
     methods
