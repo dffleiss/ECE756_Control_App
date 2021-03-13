@@ -1,0 +1,31 @@
+[System]
+Name='LineFollowingFIS3'
+Type='mamdani'
+Version=2.0
+NumInputs=1
+NumOutputs=1
+NumRules=2
+AndMethod='min'
+OrMethod='max'
+ImpMethod='min'
+AggMethod='max'
+DefuzzMethod='centroid'
+
+[Input1]
+Name='RLI_Error'
+Range=[-100 100]
+NumMFs=3
+MF1='Right':'trimf',[-288 -100 0]
+MF2='Center':'trimf',[-60.1 0 60.05291005291]
+MF3='Left':'trimf',[0 100 288.4]
+
+[Output1]
+Name='Steering'
+Range=[-15 15]
+NumMFs=2
+MF1='Turn_Left':'trimf',[-27.5 -15 -5]
+MF2='Turn_Right':'trimf',[5 15 27.5]
+
+[Rules]
+1, 1 (1) : 1
+3, 2 (1) : 1
